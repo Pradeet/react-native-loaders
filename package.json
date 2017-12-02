@@ -1,7 +1,7 @@
 {
   "name": "react-native-loaders",
   "description": "A collection of Loaders and progress bar for react-native.",
-  "license": "MIT License",
+  "license": "MIT",
   "scripts": {
     "bootstrap": "lerna bootstrap",
     "lint": "eslint packages",

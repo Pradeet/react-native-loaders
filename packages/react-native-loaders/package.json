@@ -1,0 +1,33 @@
+{
+  "name": "react-native-loaders",
+  "version": "0.0.1",
+  "description": "A collection of Loaders and progress bar for react-native.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pradeet/react-native-loaders.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-native",
+    "loader",
+    "progress",
+    "spinner",
+    "loaders",
+    "progress-bar"
+  ],
+  "author": "Pradeet Swamy <pradeet1995@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Pradeet/react-native-loaders/issues"
+  },
+  "homepage": "https://github.com/Pradeet/react-native-loaders#readme",
+  "dependencies": {
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "babel-plugin-add-module-exports": "^0.2.1"
+  }
+}
