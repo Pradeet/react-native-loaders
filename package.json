@@ -1,5 +1,26 @@
 {
-	"devDependencies": {
-		"lerna": "^2.5.1"
-	}
+  "name": "react-native-loaders",
+  "description": "A collection of Loaders and progress bar for react-native.",
+  "license": "MIT License",
+  "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "lint": "eslint packages",
+    "lint-fix": "npm run lint -- --fix"
+  },
+  "git-pre-hooks": {
+    "pre-commit": "npm run lint"
+  },
+ "devDependencies": {
+  "babel-eslint": "^7.2.3",
+  "eslint": "^3.19.0",
+  "eslint-config-airbnb": "^15.0.0",
+  "eslint-import-resolver-babel-module": "^3.0.0",
+  "eslint-plugin-babel": "^4.1.1",
+  "eslint-plugin-import": "^2.7.0",
+  "eslint-plugin-jsx-a11y": "^5.0.1",
+  "eslint-plugin-react": "^7.0.1",
+  "eslint-plugin-react-native": "^2.3.2",
+  "git-pre-hooks": "^1.2.0",
+  "lerna": "^2.5.1"
+ }
 }

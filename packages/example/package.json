@@ -3,6 +3,8 @@
 	"version": "0.0.1",
 	"private": true,
 	"scripts": {
+    "react-native": "watchman watch-del-all && react-native start --root --reset-cache",
+    "mobile": "npm run react-native",
 		"start": "node node_modules/react-native/local-cli/cli.js start",
 		"test": "jest"
 	},
