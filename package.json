@@ -5,7 +5,8 @@
   "scripts": {
     "bootstrap": "lerna bootstrap",
     "lint": "eslint packages",
-    "lint-fix": "npm run lint -- --fix"
+    "lint-fix": "npm run lint -- --fix",
+    "add-package": "lerna add $1 --scope react-native-loaders"
   },
   "git-pre-hooks": {
     "pre-commit": "npm run lint"
