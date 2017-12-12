@@ -16,8 +16,7 @@
           ".ios.js",
           ".native.js"
         ]
-      },
-      "babel-module": {}
+      }
     }
   },
   "plugins": [
@@ -50,6 +49,11 @@
     "global-require": 0,
     "generator-star-spacing": 0,
     "import/prefer-default-export": 0,
+    "import/no-extraneous-dependencies": 0,
+    "import/no-unresolved": [2, {
+      "ignore": ["^react$", "^react-native$", "^react-native/"]
+    }],
+    "import/extensions": "off",
     "react/sort-comp": [2, {
       "order": [
         "static-properties",
