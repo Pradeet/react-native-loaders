@@ -130,7 +130,7 @@ export class ProgressCircle extends React.Component {
             <Arc
               radius={size / 2}
               startAngle={0}
-              endAngle={(indeterminate ? endAngle : 2) * Math.PI}
+              endAngle={(indeterminate ? endAngle * 2 : 2) * Math.PI}
               stroke={borderColor || color}
               strokeCap={strokeCap}
               strokeWidth={border}
