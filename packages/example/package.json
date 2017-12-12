@@ -11,7 +11,7 @@
 	"dependencies": {
 		"react": "16.0.0",
 		"react-native": "0.50.4",
-    "react-native-loaders": "0.0.1"
+		"react-native-loaders": "^0.0.1"
 	},
 	"devDependencies": {
 		"babel-jest": "21.2.0",
