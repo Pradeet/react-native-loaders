@@ -49,6 +49,7 @@
     "comma-dangle": 0,
     "global-require": 0,
     "generator-star-spacing": 0,
+    "import/prefer-default-export": 0,
     "react/sort-comp": [2, {
       "order": [
         "static-properties",
