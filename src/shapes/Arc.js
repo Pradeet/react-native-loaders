@@ -41,7 +41,7 @@ function makeArcPath(x, y, startAngleArg, endAngleArg, radius, direction) {
           A${radius} ${radius} 0 ${arcFlag} ${reverseFlag} ${x + (radius * (1 + endSine))} ${(y + radius) - (radius * endCosine)}`;
 }
 
-export default class Arc extends React.PureComponent {
+class Arc extends React.PureComponent {
   render() {
     const {
       startAngle,
@@ -89,3 +89,5 @@ Arc.defaultProps = {
   strokeWidth: 0,
   direction: 'clockwise',
 };
+
+module.exports = Arc;

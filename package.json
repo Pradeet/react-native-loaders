@@ -24,7 +24,8 @@
   "files": ["src", "index.js"],
   "scripts": {
     "lint": "eslint packages",
-    "lint-fix": "npm run lint -- --fix"
+    "lint-fix": "npm run lint -- --fix",
+    "build": "babel ./src --out-dir ./lib --copy-files --ignore '**/*.spec.js','**/*.mock.js'"
   },
   "git-pre-hooks": {
     "pre-commit": "npm run lint"
@@ -37,7 +38,6 @@
    "babel-eslint": "^7.2.3",
    "babel-cli": "^6.26.0",
    "babel-core": "^6.26.0",
-   "babel-plugin-add-module-exports": "^0.2.1",
    "babel-preset-react-native": "^4.0.0",
    "eslint": "^3.19.0",
    "eslint-config-airbnb": "^15.0.0",

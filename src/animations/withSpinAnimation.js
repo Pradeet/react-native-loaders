@@ -5,7 +5,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Animated, Easing } from 'react-native';
 
-export default function withAnimation(WrappedComponent) {
+function withAnimation(WrappedComponent) {
   const wrappedComponentName = WrappedComponent.displayName || WrappedComponent.name || 'Component';
 
   class AnimatedComponent extends React.Component {
@@ -104,3 +104,5 @@ export default function withAnimation(WrappedComponent) {
 
   return AnimatedComponent;
 }
+
+module.exports = withAnimation;

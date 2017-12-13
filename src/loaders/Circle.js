@@ -191,4 +191,4 @@ ProgressCircle.defaultProps = {
   endAngle: 0.9,
 };
 
-export default withSpinAnimation(ProgressCircle);
+module.exports = withSpinAnimation(ProgressCircle);
