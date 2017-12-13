@@ -1,1 +1,2 @@
-export { default as Circle } from './src/loaders/Circle';
+export * from './src/loaders';
+export * from './src/animations';
