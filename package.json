@@ -21,6 +21,7 @@
     "type": "git",
     "url": "git+https://github.com/Pradeet/react-native-loaders.git"
   },
+  "files": ["src", "index.js"],
   "scripts": {
     "lint": "eslint packages",
     "lint-fix": "npm run lint -- --fix"
