@@ -37,7 +37,7 @@
   },
   "rules": {
     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
-    "no-underscore-dangle": ["error", { "allow": ["_id"] }],
+    "no-underscore-dangle": "off",
     "react/forbid-prop-types": [0, { "forbid": [] }],
     "react-native/no-unused-styles": 2,
     "react-native/split-platform-components": 2,

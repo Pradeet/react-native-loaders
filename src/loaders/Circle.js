@@ -35,7 +35,7 @@ const styles = StyleSheet.create({
 export class ProgressCircle extends React.Component {
   constructor(props, context) {
     super(props, context);
-    this.progressValue = 0;
+    this.progressValue = props.animated ? props.progress._value : props.progress;
   }
 
   componentWillMount() {

@@ -17,7 +17,7 @@ function makeCirclePath(x, y, radius, direction) {
     .close();
 }
 
-export default class Circle extends React.Component {
+class Circle extends React.Component {
   constructor(props) {
     super(props);
     this.state = {};
@@ -57,3 +57,5 @@ Circle.defaultProps = {
   strokeWidth: 0,
   direction: 'clockwise',
 };
+
+module.exports = Circle;

@@ -42,7 +42,9 @@ export default class App extends Component {
     title: 'Circle Loader',
     component: (
       <View style={{ flexDirection: 'row', paddingVertical: 5 }}>
-        <Circle size={32} indeterminate />
+        <Circle style={{ marginRight: 10 }} indeterminate />
+        <Circle style={{ marginRight: 10 }} progress={0.3} showsText />
+        <Circle style={{ marginRight: 10 }} showsText unfilledColor={'rgba(0, 122, 255, 0.2)'} borderWidth={0} progress={0.7} />
       </View>
     )
   }]
