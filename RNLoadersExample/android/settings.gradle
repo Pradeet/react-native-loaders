@@ -1,3 +1,6 @@
 rootProject.name = 'RNLoadersExample'
 
+include ':react-native-loaders'
+project(':react-native-loaders').projectDir = new File(rootProject.projectDir, '../../android/')
+
 include ':app'
